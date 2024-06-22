@@ -1,18 +1,16 @@
 <?php
 /**
- * Plugin Name:			Eras Plugin
- * Description:			Lyrics from Taylor Swift songs from her various eras, through TTPD.
- * Requires at least:	6
- * Version:				1.0
- * Author:				Lisa Sabin-Wilson
- * Twitter:				@LisaSabinWilson
- * Author URI:			https://lisasabin-wilson.com
- * License:				GPL-2.0-or-later
- * License URI:			https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:			eras-plugin
+ * Plugin Name:	Eras Plugin
+ * Description:	Lyrics from Taylor Swift songs from her various eras, through TTPD.
+ * Version:	1.0
+ * Author:	Lisa Sabin-Wilson
+ * Twitter:	@LisaSabinWilson
+ * Author URI:	https://lisasabin-wilson.com
+ * License:	GPL-2.0-or-later
+ * License URI:	https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:	eras-plugin
  *
- * @package           Eras Plugin
- *
+ * @package	Eras Plugin
  *
 	This program is free software; you can redistribute it and/or
 	modify it under the terms of the GNU General Public License
@@ -26,9 +24,6 @@
 
 	For more information please see <http://www.gnu.org/licenses/>.
 */
-
- */
-
 
 function taylor_get_lyric() {
 	/** These are popular Taylor Swift lyrics */
