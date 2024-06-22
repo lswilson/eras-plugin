@@ -1,9 +1,9 @@
 # Eras Plugin
 
-* Taylor Swift is not just an entertainer, she is a mastermind of global success.
-* This is not just a WordPress plugin, it's a celebration of some of her best lyrics.
-*
-* When activated, this plugin displays random lyrics from Taylor Swifts songs in the top right corner of your WordPress Dashboard.
+Taylor Swift is not just an entertainer, she is a mastermind of global success.
+This is not just a WordPress plugin, it's a celebration of some of her best lyrics.
+
+When activated, this plugin displays random lyrics from Taylor Swifts songs in the top right corner of your WordPress Dashboard.
 
 
 ## Description
