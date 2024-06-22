@@ -19,8 +19,8 @@ This is a WordPress plugin.  Install it in:
 
 ## Authors
 
-[lswilson] (https://github.com/lswilson)
-[@LisaSabinWilson](https://twitter.com/lisasabinwilson)
+* [lswilson](https://github.com/lswilson)
+* [@LisaSabinWilson](https://twitter.com/lisasabinwilson)
 
 ## Version History
 
@@ -35,6 +35,6 @@ This project is licensed under the GPLv2 or later - see the LICENSE.md file for 
 
 Inspiration, code snippets, etc.
 * [hello-dolly](https://wordpress.org/plugins/hello-dolly/)
-* [Matt Mullenweg] (https://ma.tt)
+* [Matt Mullenweg](https://ma.tt)
 * [Taylor Nation](https://taylorswift.com)
 * [Taylor Swift](https://twitter.com/taylorswift13)
