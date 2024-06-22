@@ -1,5 +1,7 @@
 # Eras Plugin
 
+[![The Eras Plugin - A Taylor SWift lyrics plugin for WordPress](https://lisasabin-wilson.com/the-eras-plugin.png)](https://lisasabin-wilson.com)
+
 Taylor Swift is not just an entertainer, she is a mastermind of global success.
 This is not just a WordPress plugin, it's a celebration of some of her best lyrics.
 
