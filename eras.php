@@ -128,7 +128,7 @@ function taylor_get_lyric() {
 	You caged me and then you called me crazy
 	I am what I am ’cause you trained me
 	The dopamine races through his brain on a six-lane Texas highway
-	I wish I could unrecall how we almost had it called
+	I wish I could unrecall how we almost had it all
 	Lights, camera, b*tch, smile
 	You deserve prison, but you won’t get time
 	I built a legacy which you can’t undo
