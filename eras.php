@@ -134,6 +134,7 @@ function taylor_get_lyric() {
 	I knew it from the first old fashioned, we were cursed
 	Devils roll the dice, angels roll their eyes
 	You look like Taylor Swift in this light, we’re loving it
+	Why you gotta be so mean?
 ";
 
 	// Here we split it into lines.
