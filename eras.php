@@ -135,6 +135,7 @@ function taylor_get_lyric() {
 	Devils roll the dice, angels roll their eyes
 	You look like Taylor Swift in this light, we’re loving it
 	Why you gotta be so mean?
+	It's me, hi, I'm the problem, it's me
 ";
 
 	// Here we split it into lines.
