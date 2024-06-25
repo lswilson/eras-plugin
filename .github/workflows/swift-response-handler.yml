@@ -1,0 +1,32 @@
+# Workflow contributed by @0aveRyan
+# This workflow handles automatic commenting on issues and PRs based on specific triggers
+
+name: Issue and PR Handler
+
+on:
+  issues:
+    types: [opened, edited]
+  pull_request:
+    types: [closed]
+
+jobs:
+  handle_issues:
+    if: github.event_name == 'issues'
+    runs-on: ubuntu-latest
+    steps:
+    - name: Comment on Issues containing 'bug' or 'issue'
+      if: contains(github.event.issue.body, 'bug') || contains(github.event.issue.body, 'issue')
+      run: |
+        echo "Commenting on the issue because it contains 'bug' or 'issue'."
+        COMMENT="I'm sorry... The old Taylor can't come to the phone right now...\n\n![gif](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm1ieHRwY204b3ZqZGVzYzNreXp2ZG5qN25lYXI3ejJyYW02N3J0MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9Ignc7H7Kq3DdG0M/giphy.webp)"
+        gh issue comment ${{ github.event.issue.number }} --body "$COMMENT"
+
+  handle_prs:
+    if: github.event_name == 'pull_request' && github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+    - name: Comment on merged PRs
+      run: |
+        echo "Commenting on the merged PR."
+        COMMENT="Nothing seems to work the first few times, am I right?\n\n![gif](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDY2YzdjMDY1am03dzB4b2t1NWc4MWxubmw1NjU3MnNyZ2p5dGp2ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2vNsZAoyge1nMe9rhx/giphy.webp)"
+        gh pr comment ${{ github.event.pull_request.number }} --body "$COMMENT"
