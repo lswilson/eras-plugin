@@ -137,6 +137,7 @@ function taylor_get_lyric() {
 	Why you gotta be so mean?
 	It's me, hi, I'm the problem, it's me
 	She had a marvelous time ruining everything.
+	She needed cold hard proof so I gave her some.
 ";
 
 	// Here we split it into lines.
