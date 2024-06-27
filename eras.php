@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:	Eras Plugin
- * Description:	Lyrics from Taylor Swift songs from her various eras, through TTPD.
+ * Description:	When activated, this plugin displays random lyrics from Taylor Swifts songs in the top right corner of your WordPress Dashboard.
  * Version:	1.0
  * Author:	Lisa Sabin-Wilson
  * Twitter:	@LisaSabinWilson
