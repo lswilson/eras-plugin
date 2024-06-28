@@ -138,6 +138,7 @@ function taylor_get_lyric() {
 	It's me, hi, I'm the problem, it's me
 	She had a marvelous time ruining everything.
 	She needed cold hard proof so I gave her some.
+ 	You had the speech, you’re speechless.
 ";
 
 	// Here we split it into lines.
