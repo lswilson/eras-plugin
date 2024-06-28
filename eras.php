@@ -139,6 +139,7 @@ function taylor_get_lyric() {
 	She had a marvelous time ruining everything.
 	She needed cold hard proof so I gave her some.
  	I cry a lot but I am so productive, It’s an art
+ 	See the lights, see the party, the ball gowns
 ";
 
 	// Here we split it into lines.
