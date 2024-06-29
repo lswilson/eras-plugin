@@ -142,6 +142,11 @@ function taylor_get_lyric() {
  	You had the speech, you’re speechless.
  	I cry a lot but I am so productive, It’s an art
  	See the lights, see the party, the ball gowns
+  	I’m a real tough kid, I can handle my shit
+	All along there was some invisible string tying you to me
+	Time, mystical time, cuttin’ me open, then healin’ me fine
+	Time, wondrous time, gave me the blues and then purple pink skies
+	Who’s afraid of little old me? Well, you should be
 ";
 
 	// Here we split it into lines.
